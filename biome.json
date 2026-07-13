@@ -15,7 +15,15 @@
     ]
   },
   "linter": {
-    "enabled": true
+    "enabled": true,
+    "rules": {
+      "suspicious": {
+        "noConsole": "off"
+      },
+      "style": {
+        "useImportType": "off"
+      }
+    }
   },
   "formatter": {
     "enabled": true,
